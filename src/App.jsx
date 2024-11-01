@@ -1,5 +1,6 @@
 import './App.css'
-import FormUsingRef from './FormUsingRef'
+// import FormUsingRef from './FormUsingRef'
+import HookForm from './HookForm'
 // import FormState from './FormState'
 // import Forms from './Forms'
 
@@ -12,7 +13,8 @@ function App() {
       <h1>Vite + React</h1>
       {/* <Forms/> */}
       {/* <FormState/> */}
-      <FormUsingRef/>
+      {/* <FormUsingRef/> */}
+      <HookForm/>
     </>
   )
 }
